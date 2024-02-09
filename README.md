@@ -30,10 +30,11 @@ git clone https://github.com/ShiningPr1sm/minecraft-auth-via-mod-1.19.git
 5. After installation, if you do not have a folder "mods" in "%appdata%/.minecraft/", create it yourself and put there the .jar file that you have in the repository "build/libs/";
 
 6. Go to the Launcher, log in if you have not done it and download the Forge version. Don't forget to enable the option "Open output log" in the launcher settings;
+7. 
 ![image](https://github.com/ShiningPr1sm/minecraft-auth-via-mod-1.19/assets/61665029/165ff9c8-b6ab-42dd-bcd9-97816078389e)
 ![image](https://github.com/ShiningPr1sm/minecraft-auth-via-mod-1.19/assets/61665029/1a86eb6c-74e4-4aef-a0ab-00800fbbd02e)
 
-7. After you start up your game, in the log you need find a line with the phrase "Launching target 'forgeclient' with arguments...";
+8. After you start up your game, in the log you need find a line with the phrase "Launching target 'forgeclient' with arguments...";
 
 9. Next, copy the line starting with "--uuid" and ending with "msa" and save that line somewhere in a .txt file;
 
